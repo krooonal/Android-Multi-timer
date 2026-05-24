@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Top Crown Button -->
+    <path
+        android:fillColor="#00E5FF"
+        android:pathData="M48,22 h12 v4 h-12 z" />
+
+    <!-- Left/Right Action Knobs -->
+    <path
+        android:fillColor="#FF2A85"
+        android:pathData="M31.2,30.3 l2.8,-2.8 l4.2,4.2 l-2.8,2.8 z" />
+    <path
+        android:fillColor="#00E5FF"
+        android:pathData="M76.8,30.3 l-2.8,-2.8 l-4.2,4.2 l2.8,2.8 z" />
+
+    <!-- Main Outer Ring (Neon Cyan) -->
+    <path
+        android:strokeColor="#00E5FF"
+        android:strokeWidth="4"
+        android:strokeLineCap="round"
+        android:fillColor="#00000000"
+        android:pathData="M54,26 C38.5,26 26,38.5 26,54 C26,69.5 38.5,82 54,82 C69.5,82 82,69.5 82,54 C82,38.5 69.5,26 54,26 Z" />
+
+    <!-- Accent Inner Countdown Ring Arc (Neon Magenta) -->
+    <path
+        android:strokeColor="#FF2A85"
+        android:strokeWidth="3.5"
+        android:strokeLineCap="round"
+        android:fillColor="#00000000"
+        android:pathData="M54,34 A20,20 0 1,1 34,54" />
+
+    <!-- Watch Dial Hands (Monospace Center Pin and Pointer Ticks) -->
+    <path
+        android:fillColor="#00E5FF"
+        android:pathData="M54,50 A4,4 0 1,1 54,58 A4,4 0 1,1 54,50 Z" />
+    <!-- Minutes Hand pointing upwards-right -->
+    <path
+        android:strokeColor="#00E5FF"
+        android:strokeWidth="3"
+        android:strokeLineCap="round"
+        android:pathData="M54,54 L62,43" />
+    <!-- Seconds Hand pointing down -->
+    <path
+        android:strokeColor="#FF2A85"
+        android:strokeWidth="1.5"
+        android:strokeLineCap="round"
+        android:pathData="M54,54 L54,70" />
+</vector>
